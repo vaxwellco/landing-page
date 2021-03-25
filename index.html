@@ -15,11 +15,11 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#" netlify-honeypot="bot-field" data-netlify="true">
+			<form id="signup-form" class="kwes-form" method="post" action="https://kwes.io/api/foreign/forms/lfuZpuejPZvZQGUxwR4Q" netlify-honeypot="bot-field" data-netlify="true">
 				<input hidden name="bot-field"/>
-				<input type="text" name="name" id="email" placeholder="Full Name" />
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="text" name="state" id="email" placeholder="State" />
+				<input type="text" name="name" id="email" rules="required|max:255" placeholder="Full Name" />
+				<input type="email" name="email" id="email" rules="required|max:255" placeholder="Email Address" />
+				<input type="text" name="state" id="email" rules="required|max:255" placeholder="State" />
 				<input type="submit" value="Sign Up" />
 			</form>
 
@@ -38,6 +38,7 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/main.js"></script>
+			<script src="https://kwes.io/v2/kwes-script.js" defer></script>
 
 	</body>
 </html>
