@@ -15,13 +15,11 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#" data-netlify="true">
+			<form id="signup-form" method="post" action="#" netlify-honeypot="bot-field" data-netlify="true">
+				<input hidden name="bot-field"/>
 				<input type="text" name="name" id="email" placeholder="Full Name" />
-			</br>
 				<input type="email" name="email" id="email" placeholder="Email Address" />
-			</br>
 				<input type="text" name="state" id="email" placeholder="State" />
-			</br>
 				<input type="submit" value="Sign Up" />
 			</form>
 
