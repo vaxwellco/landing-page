@@ -834,8 +834,9 @@ button,
       #signup-form input[type="text"],
       #signup-form input[type="password"],
       #signup-form input[type="email"] {
-        width: 100%; }
+         }
       #signup-form > * {
+        width: 100%;
         margin: 1.25em 0 0 0; }
       #signup-form .message {
         bottom: -1.5em;
